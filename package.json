@@ -1,0 +1,26 @@
+{
+  "name": "rockbox-scrobbler",
+  "version": "1.0.0",
+  "description": "Last.fm API 2.0 client for listened tracks on a RockBox device",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/othiym23/node-rockbox-scrobbler"
+  },
+  "author": "Forrest L Norvell <ogd@aoaioxxysz.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/othiym23/node-rockbox-scrobbler/issues"
+  },
+  "homepage": "https://github.com/othiym23/node-rockbox-scrobbler",
+  "dependencies": {
+    "csv-streamify": "^1.0.0",
+    "graceful-fs": "^3.0.5"
+  },
+  "devDependencies": {
+    "standard": "^2.4.5"
+  }
+}
